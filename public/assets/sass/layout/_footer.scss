@@ -1,0 +1,33 @@
+.footer {
+    background-image: url("../media/banner/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 0% 100%;
+
+    animation: revealBg 2s ease forwards;
+
+    padding: 42px 0;
+}
+
+@media (max-width: 1800px) {
+    .footer {
+        background-position: 55.556vw center;
+    }
+}
+
+@media (max-width: 1399px) {
+    .footer {
+        background: #ffffff;
+        height: auto;
+        padding-bottom: 0;
+    }
+}
+
+@keyframes revealBg {
+    from {
+        background-size: 0% 100%;
+    }
+    to {
+        background-size: 0% 100%;
+    }
+}

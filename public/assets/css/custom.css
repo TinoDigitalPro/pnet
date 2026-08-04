@@ -1,0 +1,91 @@
+.material-symbols-outlined {
+  font-size: 75px !important;
+  /* make icon bigger */
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.service-box:hover .material-symbols-outlined {
+  color: #f8f8f8;
+  /* your brand color */
+  transform: scale(1.2);
+  /* optional zoom effect */
+}
+
+
+.color-green {
+  color: #7087cc;
+}
+
+.s-consulting li {
+  color: #555;
+  padding-bottom: 5px;
+  text-indent: 1.425rem;
+}
+
+.pb-40 {
+  padding-bottom: 40px;
+}
+
+.check-form {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.check-form input {
+  margin-top: 3px;
+  flex-shrink: 0;
+}
+
+.ptop-10 {
+  padding-top: 10px;
+}
+
+.service-banner {
+  background: url(../media/banner/services-banner.png);
+}
+
+.consulting-banner {
+  background: url(../media/banner/consulting-banner.png);
+}
+
+.industries-banner {
+  background: url(../media/banner/industries-banner.png);
+}
+
+.energy_utilities-banner {
+  background: url(../media/banner/energy_utilities-banner.png);
+}
+
+.cpi-banner {
+  background: url(../media/banner/cpi-banner.png);
+}
+
+.ot-banner {
+  background: url(../media/banner/ot-banner.png);
+}
+
+.ms-banner {
+  background: url(../media/banner/ms-banner.png);
+}
+
+.tec-banner {
+  background: url(../media/banner/tec-banner.png);
+}
+
+.os-banner {
+  background: url(../media/banner/os-banner.png);
+}
+
+.contact-banner {
+  background: url(../media/banner/contact-banner.png);
+}
+
+.about-banner {
+  background: url(../media/banner/about-banner.png);
+}
+
+.team .row div {
+  margin-bottom: 10px;
+}
